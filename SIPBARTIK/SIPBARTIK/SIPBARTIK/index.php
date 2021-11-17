@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(empty($_SESSION['username'])){
+  ?>
+}
+<!-- akhir login--->
 <!doctype html>
 <html lang="en">
   <head>
@@ -126,3 +132,10 @@
     -->
   </body>
 </html>
+<?php
+}else{
+  echo "<script>
+  window.location ='../sign-in/index.html';
+  </script>";
+}
+?>
