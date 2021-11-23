@@ -132,10 +132,3 @@ if(empty($_SESSION['username'])){
     -->
   </body>
 </html>
-<?php
-}else{
-  echo "<script>
-  window.location ='../sign-in/index.html';
-  </script>";
-}
-?>
