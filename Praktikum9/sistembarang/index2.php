@@ -1,5 +1,5 @@
 <?php
-reqiure "proses/session.php";
+require "proses/session.php";
 if(empty ($_GET['x'])){
     echo "<script>window.location='home.php?x=home';</script>";
 }elseif($_GET['x']=='home'){
